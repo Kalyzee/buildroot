@@ -1,0 +1,25 @@
+From e36bff4f01f64871d4343978de8dbd15f3c97178 Mon Sep 17 00:00:00 2001
+From: Ludovic Bouguerra <ludovic.bouguerra@kalyzee.com>
+Date: Wed, 5 Apr 2017 15:23:33 +0200
+Subject: [PATCH] Pyc management
+
+---
+ django/db/migrations/loader.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/django/db/migrations/loader.py b/django/db/migrations/loader.py
+index bbd60a6..4cf70ea 100644
+--- a/django/db/migrations/loader.py
++++ b/django/db/migrations/loader.py
+@@ -91,7 +91,7 @@ class MigrationLoader(object):
+             # Scan for .py files
+             migration_names = set()
+             for name in os.listdir(directory):
+-                if name.endswith(".py"):
++                if name.endswith(".pyc"):
+                     import_name = name.rsplit(".", 1)[0]
+                     if import_name[0] not in "_.~":
+                         migration_names.add(import_name)
+-- 
+2.7.4
+
