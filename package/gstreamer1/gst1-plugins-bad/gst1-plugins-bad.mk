@@ -4,9 +4,9 @@
 #
 ################################################################################
 
-GST1_PLUGINS_BAD_VERSION = 1.12.2
+GST1_PLUGINS_BAD_VERSION = 1.13.0.1
 GST1_PLUGINS_BAD_SOURCE = gst-plugins-bad-$(GST1_PLUGINS_BAD_VERSION).tar.xz
-GST1_PLUGINS_BAD_SITE = https://gstreamer.freedesktop.org/src/gst-plugins-bad
+GST1_PLUGINS_BAD_SITE = https://www.kalyzee.com/static/kast
 GST1_PLUGINS_BAD_INSTALL_STAGING = YES
 GST1_PLUGINS_BAD_LICENSE_FILES = COPYING COPYING.LIB
 # Unknown and GPL licensed plugins will append to GST1_PLUGINS_BAD_LICENSE if
@@ -71,6 +71,8 @@ GST1_PLUGINS_BAD_CONF_OPTS += \
 	--disable-qt
 
 GST1_PLUGINS_BAD_DEPENDENCIES = gst1-plugins-base gstreamer1
+
+GST1_PLUGINS_BAD_CONF_OPTS = CFLAGS="$(TARGET_CFLAGS) -Wno-error"
 
 ifeq ($(BR2_PACKAGE_RPI_USERLAND),y)
 # RPI has odd locations for several required headers.

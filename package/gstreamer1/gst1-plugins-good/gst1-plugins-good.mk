@@ -4,9 +4,9 @@
 #
 ################################################################################
 
-GST1_PLUGINS_GOOD_VERSION = 1.12.2
+GST1_PLUGINS_GOOD_VERSION = 1.13.0.1
 GST1_PLUGINS_GOOD_SOURCE = gst-plugins-good-$(GST1_PLUGINS_GOOD_VERSION).tar.xz
-GST1_PLUGINS_GOOD_SITE = https://gstreamer.freedesktop.org/src/gst-plugins-good
+GST1_PLUGINS_GOOD_SITE = https://www.kalyzee.com/static/kast
 GST1_PLUGINS_GOOD_LICENSE_FILES = COPYING
 GST1_PLUGINS_GOOD_LICENSE = LGPLv2.1+
 

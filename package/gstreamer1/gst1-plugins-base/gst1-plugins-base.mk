@@ -4,9 +4,9 @@
 #
 ################################################################################
 
-GST1_PLUGINS_BASE_VERSION = 1.12.2
+GST1_PLUGINS_BASE_VERSION = 1.13.0.1
 GST1_PLUGINS_BASE_SOURCE = gst-plugins-base-$(GST1_PLUGINS_BASE_VERSION).tar.xz
-GST1_PLUGINS_BASE_SITE = https://gstreamer.freedesktop.org/src/gst-plugins-base
+GST1_PLUGINS_BASE_SITE = https://www.kalyzee.com/static/kast
 GST1_PLUGINS_BASE_INSTALL_STAGING = YES
 GST1_PLUGINS_BASE_LICENSE_FILES = COPYING.LIB
 GST1_PLUGINS_BASE_LICENSE = LGPLv2+, LGPLv2.1+

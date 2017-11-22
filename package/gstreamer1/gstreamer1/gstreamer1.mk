@@ -4,9 +4,9 @@
 #
 ################################################################################
 
-GSTREAMER1_VERSION = 1.12.2
+GSTREAMER1_VERSION = 1.13.0.1
 GSTREAMER1_SOURCE = gstreamer-$(GSTREAMER1_VERSION).tar.xz
-GSTREAMER1_SITE = https://gstreamer.freedesktop.org/src/gstreamer
+GSTREAMER1_SITE = https://www.kalyzee.com/static/kast
 GSTREAMER1_INSTALL_STAGING = YES
 GSTREAMER1_LICENSE_FILES = COPYING
 GSTREAMER1_LICENSE = LGPLv2+, LGPLv2.1+
