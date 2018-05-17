@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_LIBRTMP
+	bool "python-librtmp"
+	select BR2_PACKAGE_RTMPDUMP
+	select BR2_PACKAGE_PYTHON_CFFI
+	select BR2_PACKAGE_PYTHON_SINGLEDISPATCH
+	help
+	  Python bindings for librtmp, built with cffi
