@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_GOOGLE_API_PYTHON_CLIENT
+	bool "python-google-api-python-client"
+	select BR2_PACKAGE_PYTHON_SIX
+	select BR2_PACKAGE_PYTHON_HTTPLIB2
+	select BR2_PACKAGE_PYTHON_OAUTH2CLIENT
+	select BR2_PACKAGE_PYTHON_URITEMPLATE
+	help
+	  The Google API Client for Python is a client library for accessing the Plus, Moderator, and many other Google APIs.

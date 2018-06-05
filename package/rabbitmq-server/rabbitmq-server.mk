@@ -52,4 +52,10 @@ define RABBITMQ_SERVER_USERS
 	rabbitmq -1 rabbitmq -1 * /var/lib/rabbitmq /bin/sh - rabbitmq-server daemon
 endef
 
+define RABBITMQ_SERVER_INSTALL_STARTUP
+        -mv $(TARGET_DIR)/usr/lib/erlang/lib/rabbitmq_server-0.0.0 $(TARGET_DIR)/usr/lib/erlang/lib/rabbitmq_server-$(RABBITMQ_SERVER_VERSION)
+endef
+
+RABBITMQ_SERVER_POST_INSTALL_TARGET_HOOKS += RABBITMQ_SERVER_INSTALL_STARTUP
+
 $(eval $(generic-package))

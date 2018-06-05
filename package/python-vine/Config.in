@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_VINE
+	bool "python-vine"
+	help
+          Promises, promises, promises.

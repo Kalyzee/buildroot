@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_AMQP
+	bool "python-amqp"
+	help
+          Low-level AMQP client for Python (fork of amqplib).

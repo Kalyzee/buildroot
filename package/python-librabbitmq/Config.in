@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_LIBRABBITMQ
+	bool "python-librabbitmq"
+	select BR2_PACKAGE_RABBITMQ_C
+	select BR2_PACKAGE_PYTHON_AMQP
+	help
+          Python bindings to the RabbitMQ C-library rabbitmq-c.
+          Supported by Kombu and Celery.

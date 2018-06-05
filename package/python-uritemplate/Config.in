@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_URITEMPLATE
+	bool "python-uritemplate"
+	help
+	  Simple python library to deal with URI Templates.

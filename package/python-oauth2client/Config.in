@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_OAUTH2CLIENT
+	bool "python-oauth2client"
+	select BR2_PACKAGE_PYTHON_SIX
+	select BR2_PACKAGE_PYTHON_RSA
+	select BR2_PACKAGE_PYTHON_HTTPLIB2
+	select BR2_PACKAGE_PYTHON_PYASN
+	select BR2_PACKAGE_PYTHON_PYASN_MODULES
+	help
+	  oauth2client is a client library for OAuth 2.0

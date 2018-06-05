@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_CELERY
+	bool "python-celery"
+	select BR2_PACKAGE_PYTHON_VINE
+	select BR2_PACKAGE_PYTHON_KOMBU
+        select BR2_PACKAGE_PYTHON_BILLIARD
+	select BR2_PACKAGE_PYTHON_PYTZ
+	help
+          Distributed Task Queue.

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_BILLIARD
+	bool "python-billiard"
+	help
+          Python multiprocessing fork with improvements and bugfixes.

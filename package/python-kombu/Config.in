@@ -1,0 +1,5 @@
+config BR2_PACKAGE_PYTHON_KOMBU
+	bool "python-kombu"
+	select BR2_PACKAGE_PYTHON_LIBRABBITMQ
+	help
+          Messaging library for Python.
