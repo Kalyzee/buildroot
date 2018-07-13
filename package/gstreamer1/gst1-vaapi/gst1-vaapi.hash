@@ -1,2 +1,1 @@
-# from https://gstreamer.freedesktop.org/src/gstreamer-vaapi/gstreamer-vaapi-1.10.4.tar.xz.sha256sum
-sha256 03e690621594d9f9495d86c7dac8b8590b3a150462770ed070dc76f66a70de75  gstreamer-vaapi-1.10.4.tar.xz
+sha256 3d535bdc1307f25feb6aed54b17db8a4ea3fae02c5210d6a279c7a32cba6c4cd  gstreamer-vaapi-1.13.0.1.tar.xz
