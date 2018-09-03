@@ -22,8 +22,9 @@ GST1_VAAPI_CONF_OPTS += \
 	--disable-glx \
 	--disable-wayland \
 	--disable-egl \
-	--disable-gtk-doc-html \
-	CFLAGS="$(TARGET_CFLAGS) -Wno-error=maybe-uninitialized"
+	--disable-gtk-doc-html\
+        CFLAGS="$(TARGET_CFLAGS) -Wno-error=maybe-uninitialized"
+
 
 ifeq ($(BR2_PACKAGE_GST1_VAAPI_ENCODERS),y)
 GST1_VAAPI_CONF_OPTS += --enable-encoders
